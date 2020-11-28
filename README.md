@@ -1,29 +1,79 @@
-# Testing Web Applications
+# Sprint 1 - Module 4 : Integration Testing Lesson Plan
 
-### Objectives
+## [Training Kit](https://github.com/LambdaSchool/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%204%20-%20Testing%20Web%20Applications)
 
-- use react-testing-library for testing react components
-- use react-testing-library to test user interactions with fireEvent
+----
 
-### Guided Project Repos
+## Objectives
 
-Starter: https://github.com/LambdaSchool/web-guided-porject-rtl-i
+By the end of this module, learners should be able to:
+* explain what automated testing is and its importance
+* use react-testing-library for testing react components
+* use react-testing-library to test user interactions with fireEvent
 
-Solution: https://github.com/LambdaSchool/web-guided-porject-rtl-i-solution
+----
 
-### Pre-reqs
+## Instructor Resources
+* 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-testing-web-apps)
+* 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-testing-web-apps-solution)
+* 🐙 [Module Project](https://github.com/LambdaSchool/React-Testing-Contact-Form)
+* 🐙 [Module Project Solution](#)
 
-Have students clone the starter repo, get it fired up, and open it in their editors
+----
 
-Post this at least 15 minutes before class so they have time to download the dependencies if it takes them a long time to do so:
+## Guided Project Slack Message
+> 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
+> 2. Navigate into both the review and followAlong folders and run npm i to load dependences.
+>
+> :point_right: Technical issues spinning up the project? Please head over to the help channel!
+> :point_right: If you fall behind during lecture and wish to catch up:
+>
+> git fetch && git reset --hard origin/lecture
+>
+> :point_right: Slido event: *insert slido link*
 
-```
-@channel: For today’s guided project we will be working in our editors, as codesandbox isn’t a great environment for testing. So please follow these directions to be ready for our lecture today:
-- clone this repo to your computer 👉 https://github.com/LambdaSchool/web-guided-porject-rtl-i
-- download the dependencies `npm install` (all necessary deps are included already)
-- fire it up in the browser - `npm start`
-- open the project in your editor
-```
+----
+
+## Guided Project Zoom Invitation:
+> Unit 3 | Sprint 1 | **Module 1: React Lifecycle**
+> _______________________________________________________
+> Zoom Link : *insert zoom link*
+> Slido: *insert slido link*
+> Guided Project: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
+> Module Project: https://github.com/LambdaSchool/React-Testing-Contact-Form
+
+----
+
+## Check for Understanding Questions
+
+These are the questions used internally to check student understanding. Students will be instructed to answer these questions after the guided project. Please make sure to emphasize the concepts behind these answers.
+
+#### What kind of function is this - toBeInTheDocument?
+* Jest function
+* **Assertion function**
+* Describe function
+* Query function
+
+#### What function allows you to mimic browser events in your tests?
+* fire
+* eventFire
+* **fireEvent**
+* onClick
+
+#### Which of the following would allow you to mimic a user typing into a text input?
+* fireEvent.click(inputButton)
+* fireEvent.click(firstNameInput, { target: { value: 'Tony' } })
+* fireEvent.type(firstNameInput, { 
+target: { value: 'Tony' } })
+* **fireEvent.change(firstNameInput, { target: { value: 'Tony' } })**
+
+#### Which query functions allow you to "wait" for state to be updated after an event has been fired off?
+* getBy*
+* All of the Above
+* **findBy***
+* queryBy
+
+## Guided Project Outline
 
 ## Guided Project - Animal Form
 
@@ -279,3 +329,26 @@ test("user can fill out and submit form", async () => {
   const newAnimal = await screen.findByText(/grizzly bear/i);
 });
 ```
+
+
+### Module Project Review
+* [https://github.com/LambdaSchool/React-Testing-Contact-Form](https://github.com/LambdaSchool/React-Testing-Contact-Form)
+
+## Breakout Slack Messages
+
+----
+
+## After Class Message
+Hope you all enjoyed today's guided Lesson!
+A reminder if that office hours are from 3:30 - 4:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
+
+Module Project
+https://github.com/LambdaSchool/React-Testing-Contact-Form
+
+Here is a review of today's material.
+
+Key Terminology
+* 📝 *term* - [description](#)
+
+Key Concepts
+* 📝 *concept* - [description](#)
