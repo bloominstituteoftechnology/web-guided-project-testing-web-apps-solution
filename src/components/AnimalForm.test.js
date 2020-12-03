@@ -30,5 +30,7 @@ test("user can fill out and submit form", async () => {
   userEvent.click(button);
 
   // assert that the animal has been added to the list
-  const newAnimal = screen.findByText(/grizzly bear/i);
+  const newAnimal = screen.queryByText(/grizzly bear/i);
+  expect(newAnimal).toBeTruthy();
+  expect(newAnimal).toBeInTheDocument();
 });
