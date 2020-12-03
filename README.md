@@ -40,8 +40,11 @@ By the end of this module, learners should be able to:
 > **Unit 3 | Sprint 1 | Module 1: React Lifecycle**
 > _______________________________________________________
 > Zoom Link : *insert zoom link*
+> 
 > Slido: *insert slido link*
+> 
 > Guided Project: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
+> 
 > Module Project: https://github.com/LambdaSchool/React-Testing-Contact-Form
 
 ----
