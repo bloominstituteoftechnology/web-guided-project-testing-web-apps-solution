@@ -215,11 +215,14 @@ https://github.com/LambdaSchool/React-Testing-Contact-Form
 Here is a review of today's material.
 
 Key Terminology
-* 📝 *expect* - [description](#)
-* 📝 *fireEvent / userEvent* - [description](#)
+* 📝 *expect* - [expect is a jest method used to test the value of an element](https://jestjs.io/docs/en/expect.html)
+* 📝 *fireEvent / userEvent* - [fireEvent is a react testing library method used to simulate user input. userEvent is a more advanced and simplified version of fireevent.](https://testing-library.com/docs/ecosystem-user-event/)
+* 📝 *regular expressions* - [A regular expression (shortened as regex or regexp) is a sequence of characters that define a search pattern](https://www.youtube.com/watch?v=sXQxhojSdZM)
+* * 📝 *RTL querys* - [React Testing Library queries allow uses to select elments from the DOM for testing.](https://testing-library.com/docs/react-testing-library/cheatsheet/)
 
 Key Concepts
-* 📝 *end-to-end tests* - [description](#)
-* 📝 *integration tests* - [description](#)
-* 📝 *unit tests* - [description](#)
-* 📝 *react testing library* - [description](#)
+* 📝 *end-to-end tests* - [a testing method that involves testing an application’s workflow from beginning to end. This method basically aims to replicate real user scenarios.](https://www.browserstack.com/guide/end-to-end-testing)
+* 📝 *integration tests* - [A method of software testing where individual components or units of code are tested to validate user interactions.](https://www.testingxperts.com/blog/what-is-integration-testing#What%20is%20Integration%20Testing?)
+* 📝 *unit tests* - [A level of software testing where individual units / components of a software are tested. The purpose is to validate that each unit of the software performs as designed.](https://softwaretestingfundamentals.com/unit-testing/)
+* 📝 *react testing library* - [a light-weight solution for testing React components. ](https://testing-library.com/docs/react-testing-library/intro/)
+* 📝 *test driven development* - [A programming methodology that encourages early testing and later ui development](https://www.youtube.com/watch?v=y8TcPr73Bwo)
