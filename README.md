@@ -2,7 +2,7 @@
 
 ## [Training Kit](https://github.com/LambdaSchool/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%204%20-%20Testing%20Web%20Applications)
 
-### [Previous Lesson Plan] (https://github.com/LambdaSchool/web-guided-porject-rtl-i-solution)
+### [Previous Lesson Plan](https://github.com/LambdaSchool/web-guided-porject-rtl-i-solution)
 
 ----
 
