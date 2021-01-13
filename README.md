@@ -18,8 +18,8 @@ By the end of this module, learners should be able to:
 ## Instructor Resources
 * 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-testing-web-apps)
 * 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-testing-web-apps-solution)
-* 🐙 [Module Project](https://github.com/LambdaSchool/React-Testing-Contact-Form)
-* 🐙 [Module Project Solution](#)
+* 🐙 [Module Project](https://github.com/LambdaSchool/web-module-project-testing-web-apps)
+* 🐙 [Module Project Solution](https://github.com/LambdaSchool/web-module-project-testing-web-apps-solution)
 
 ----
 
