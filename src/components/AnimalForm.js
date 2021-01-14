@@ -49,8 +49,13 @@ const AnimalForm = ({ errors, touched, values }) => {
           name="notes"
           onChange={event => handleChange(event)}
         />
-        <button>Submit!</button>
+
+        <table>
+        </table>
+
+        <button role="button">Submit!</button>
       </form>
+
       <h4>Current Animals</h4>
       {animals.map(animal => (
         <p key={animal.id}>{animal.species}</p>

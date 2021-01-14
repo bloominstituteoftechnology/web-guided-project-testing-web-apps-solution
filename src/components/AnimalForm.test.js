@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from '@testing-library/user-event';
 import AnimalForm from "./AnimalForm";
 
@@ -26,11 +26,18 @@ test("user can fill out and submit form", async () => {
   // ... etc
 
   // Submit the form (Careful here... state changes can happen asynchronously)
-  const button = screen.getByRole("button", { name: /submit!/i });
+  const other = screen.getByRole("table");
+
+  const button = screen.getByRole("button", { value: /submit!/i });
   userEvent.click(button);
 
   // assert that the animal has been added to the list
-  const newAnimal = screen.queryByText(/grizzly bear/i);
-  expect(newAnimal).toBeTruthy();
-  expect(newAnimal).toBeInTheDocument();
+  const newAnimal = screen.findByText(/grizzly bear/i);
+
+  newAnimal
+    .then((item)=>{
+      expect(item).toBeTruthy();
+      expect(item).toBeInTheDocument();
+    });
+  
 });
