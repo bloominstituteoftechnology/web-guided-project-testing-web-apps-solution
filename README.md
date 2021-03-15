@@ -42,7 +42,7 @@ By the end of this module, learners should be able to:
 > Zoom Link : https://lambdaschool.zoom.us/j/3076367334
 > Slido: https://app.sli.do/event/msea4w8q
 > Guided Project: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
-> Module Project: https://github.com/LambdaSchool/React-Testing-Contact-Form
+> Module Project: https://github.com/LambdaSchool/web-module-project-testing-web-apps
 
 ----
 
@@ -207,7 +207,7 @@ Hope you all enjoyed today's guided Lesson!
 A reminder if that office hours are from 2:30 - 3:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
 
 Module Project
-https://github.com/LambdaSchool/React-Testing-Contact-Form
+https://github.com/LambdaSchool/web-module-project-testing-web-apps
 
 Here is a review of today's material.
 
@@ -218,8 +218,6 @@ Key Terminology
 * 📝 *fireEvent / userEvent* - [fireEvent is a react testing library method used to simulate user input. userEvent is a more advanced and simplified version of fireevent.](https://testing-library.com/docs/ecosystem-user-event/)
 * 📝 *regular expressions* - [A regular expression (shortened as regex or regexp) is a sequence of characters that define a search pattern](https://www.youtube.com/watch?v=sXQxhojSdZM)
 * 📝 *async / await* - [A javascript idea that allows for a more streamline processing of promises.](https://javascript.info/async-await)
-
-
 
 Key Concepts
 * 📝 *end-to-end tests* - [a testing method that involves testing an application’s workflow from beginning to end. This method basically aims to replicate real user scenarios.](https://www.browserstack.com/guide/end-to-end-testing)
