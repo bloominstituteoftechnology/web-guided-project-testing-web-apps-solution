@@ -24,24 +24,30 @@ By the end of this module, learners should be able to:
 ----
 
 ## Guided Project Slack Message
+> **Welcome to Unit 3!**
+>
 > 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
 > 2. Navigate into the root folder and run npm i to load dependences.
 >
 > :point_right: Technical issues spinning up the project? Please head over to the help channel!
+>
 > :point_right: If you fall behind during lecture and wish to catch up:
 >
-> git fetch && git reset --hard origin/lecture
+> `git fetch && git reset --hard origin/lecture`
 >
-> :point_right: Slido event: *insert slido link*
+> :point_right: Slido event: https://app.sli.do/event/msea4w8q
 
 ----
 
 ## Guided Project Zoom Invitation:
-> Unit 3 | Sprint 1 | Module 4: Integration Testing For React Applications
-> --------------------------------------------------------------------------------------------------------
+> **Unit 3 | Sprint 1 | Module 4: Integration Testing For React**
+> _______________________________________________________
 > Zoom Link : https://lambdaschool.zoom.us/j/3076367334
+>
 > Slido: https://app.sli.do/event/msea4w8q
+>
 > Guided Project: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
+>
 > Module Project: https://github.com/LambdaSchool/web-module-project-testing-web-apps
 
 ----
@@ -196,7 +202,7 @@ target: { value: 'Tony' } })
 
 
 ### Module Project Review
-* [https://github.com/LambdaSchool/React-Testing-Contact-Form](https://github.com/LambdaSchool/React-Testing-Contact-Form)
+* [https://github.com/LambdaSchool/web-module-project-custom-hook](https://github.com/LambdaSchool/web-module-project-custom-hook)
 
 ## Breakout Slack Messages
 
@@ -206,12 +212,11 @@ target: { value: 'Tony' } })
 Hope you all enjoyed today's guided Lesson!
 A reminder if that office hours are from 2:30 - 3:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
 
-Module Project
-https://github.com/LambdaSchool/web-module-project-testing-web-apps
+Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
 
 Here is a review of today's material.
 
-Key Terminology
+Key Terminology:
 * 📝 *RTL querys* - [React Testing Library queries allow uses to select elments from the DOM for testing.](https://testing-library.com/docs/react-testing-library/cheatsheet/)[Also See](https://testing-library.com/docs/queries/about)
 * 📝 *ARIA roles* - [DOM elements that have role attributes automatically assigned to them.](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 * 📝 *expect* - [expect is a jest method used to test the value of an element](https://jestjs.io/docs/en/expect.html)
@@ -219,7 +224,7 @@ Key Terminology
 * 📝 *regular expressions* - [A regular expression (shortened as regex or regexp) is a sequence of characters that define a search pattern](https://www.youtube.com/watch?v=sXQxhojSdZM)
 * 📝 *async / await* - [A javascript idea that allows for a more streamline processing of promises.](https://javascript.info/async-await)
 
-Key Concepts
+Key Concepts:
 * 📝 *end-to-end tests* - [a testing method that involves testing an application’s workflow from beginning to end. This method basically aims to replicate real user scenarios.](https://www.browserstack.com/guide/end-to-end-testing)
 * 📝 *integration tests* - [A method of software testing where individual components or units of code are tested to validate user interactions.](https://www.testingxperts.com/blog/what-is-integration-testing#What%20is%20Integration%20Testing?)
 * 📝 *unit tests* - [A level of software testing where individual units / components of a software are tested. The purpose is to validate that each unit of the software performs as designed.](https://softwaretestingfundamentals.com/unit-testing/)
