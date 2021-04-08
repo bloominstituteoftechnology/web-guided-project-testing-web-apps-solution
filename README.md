@@ -202,7 +202,7 @@ target: { value: 'Tony' } })
 
 
 ### Module Project Review
-* [https://github.com/LambdaSchool/web-module-project-custom-hook](https://github.com/LambdaSchool/web-module-project-custom-hook)
+* [https://github.com/LambdaSchool/web-module-project-testing-web-apps](https://github.com/LambdaSchool/web-module-project-testing-web-apps)
 
 ## Breakout Slack Messages
 
@@ -212,7 +212,10 @@ target: { value: 'Tony' } })
 Hope you all enjoyed today's guided Lesson!
 A reminder if that office hours are from 2:30 - 3:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
 
-Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
+Module Project: https://github.com/LambdaSchool/web-module-project-testing-web-apps
+Lecture Video: (in-utero)
+Lecture Slides: https://docs.google.com/presentation/d/1AZxMHtFWWTOfANR9P-bFFe1TOxq5EH3LRtsAhixYwr4
+Custom Hooks Project Review Video: https://www.loom.com/share/47024d75655d46eb8736acd6089bd8f4
 
 Here is a review of today's material.
 
@@ -220,7 +223,7 @@ Key Terminology:
 * 📝 *RTL querys* - [React Testing Library queries allow uses to select elments from the DOM for testing.](https://testing-library.com/docs/react-testing-library/cheatsheet/)[Also See](https://testing-library.com/docs/queries/about)
 * 📝 *ARIA roles* - [DOM elements that have role attributes automatically assigned to them.](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 * 📝 *expect* - [expect is a jest method used to test the value of an element](https://jestjs.io/docs/en/expect.html)
-* 📝 *fireEvent / userEvent* - [fireEvent is a react testing library method used to simulate user input. userEvent is a more advanced and simplified version of fireevent.](https://testing-library.com/docs/ecosystem-user-event/)
+* 📝 *userEvent / fireEvent* - [userEvent is a react testing library method used to simulate user input. userEvent is a more advanced and simplified version of fireevent.](https://testing-library.com/docs/ecosystem-user-event/)
 * 📝 *regular expressions* - [A regular expression (shortened as regex or regexp) is a sequence of characters that define a search pattern](https://www.youtube.com/watch?v=sXQxhojSdZM)
 * 📝 *async / await* - [A javascript idea that allows for a more streamline processing of promises.](https://javascript.info/async-await)
 
