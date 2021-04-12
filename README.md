@@ -209,15 +209,18 @@ target: { value: 'Tony' } })
 ----
 
 ## After Class Message
-Hope you all enjoyed today's guided Lesson!
-A reminder if that office hours are from 2:30 - 3:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
+**Hope you all enjoyed today's guided Lesson!**
+**A reminder if that office hours are from 2:30 - 3:00 Lambda Time.**
+**Don't forget to complete the days Check for Understanding and Pulse Checks!**
 
+**Here is a review of today's material.**
+
+### Module Materials
 Module Project: https://github.com/LambdaSchool/web-module-project-testing-web-apps
-Lecture Video: (in-utero)
-Lecture Slides: https://docs.google.com/presentation/d/1AZxMHtFWWTOfANR9P-bFFe1TOxq5EH3LRtsAhixYwr4
-Custom Hooks Project Review Video: https://www.loom.com/share/47024d75655d46eb8736acd6089bd8f4
-
-Here is a review of today's material.
+GP Slides: https://docs.google.com/presentation/d/1AZxMHtFWWTOfANR9P-bFFe1TOxq5EH3LRtsAhixYwr4
+GP Video: (processing)
+Yesterday's Module Project Review: https://www.loom.com/share/47024d75655d46eb8736acd6089bd8f4 PW: p9E3mn
+Alternative Lecture Video: [Dustin Myers](https://youtu.be/vSL0pETgTek) | [Josh Jacobson](https://youtu.be/AATcg1sn5h4) | [Warren C. Longmire](https://youtu.be/Sd75Tf16y2Y) | [Brian Kirkby](https://youtu.be/8HaygBZ8WNA)
 
 Key Terminology:
 * 📝 *RTL querys* - [React Testing Library queries allow uses to select elments from the DOM for testing.](https://testing-library.com/docs/react-testing-library/cheatsheet/)[Also See](https://testing-library.com/docs/queries/about)
