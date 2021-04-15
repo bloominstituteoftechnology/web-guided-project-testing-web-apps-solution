@@ -218,7 +218,6 @@ target: { value: 'Tony' } })
 ### Module Materials
 Module Project: https://github.com/LambdaSchool/web-module-project-testing-web-apps
 GP Slides: https://docs.google.com/presentation/d/1AZxMHtFWWTOfANR9P-bFFe1TOxq5EH3LRtsAhixYwr4
-GP Video: (processing)
 Yesterday's Module Project Review: https://www.loom.com/share/47024d75655d46eb8736acd6089bd8f4 PW: p9E3mn
 Alternative Lecture Video: [Dustin Myers](https://youtu.be/vSL0pETgTek) | [Josh Jacobson](https://youtu.be/AATcg1sn5h4) | [Warren C. Longmire](https://youtu.be/Sd75Tf16y2Y) | [Brian Kirkby](https://youtu.be/8HaygBZ8WNA)
 
