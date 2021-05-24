@@ -42,7 +42,7 @@ By the end of this module, learners should be able to:
 ## Guided Project Zoom Invitation:
 > **Unit 3 | Sprint 1 | Module 4: Integration Testing For React**
 > _______________________________________________________
-> Zoom Link : https://lambdaschool.zoom.us/j/3076367334
+> Zoom Link : https://lambdaschool.zoom.us/my/unit3withwarren
 >
 > Slido: https://app.sli.do/event/msea4w8q
 >
