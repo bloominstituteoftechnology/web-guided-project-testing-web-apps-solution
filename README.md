@@ -222,7 +222,7 @@ Yesterday's Module Project Review: https://www.loom.com/share/47024d75655d46eb87
 Alternative Lecture Video: [Dustin Myers](https://youtu.be/vSL0pETgTek) | [Josh Jacobson](https://youtu.be/AATcg1sn5h4) | [Warren C. Longmire](https://youtu.be/Sd75Tf16y2Y) | [Brian Kirkby](https://youtu.be/8HaygBZ8WNA)
 
 Key Terminology:
-* 📝 *RTL querys* - [React Testing Library queries allow uses to select elments from the DOM for testing.](https://testing-library.com/docs/react-testing-library/cheatsheet/)[Also See](https://testing-library.com/docs/queries/about)
+* 📝 *RTL querys* - [React Testing Library queries allow uses to select elements from the DOM for testing.](https://testing-library.com/docs/react-testing-library/cheatsheet/)[Also See](https://testing-library.com/docs/queries/about)
 * 📝 *ARIA roles* - [DOM elements that have role attributes automatically assigned to them.](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 * 📝 *expect* - [expect is a jest method used to test the value of an element](https://jestjs.io/docs/en/expect.html)
 * 📝 *userEvent / fireEvent* - [userEvent is a react testing library method used to simulate user input. userEvent is a more advanced and simplified version of fireevent.](https://testing-library.com/docs/ecosystem-user-event/)
