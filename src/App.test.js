@@ -1,23 +1,30 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
-import App from "./App";
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import App from './App';
 
-test("renders App without errors", () => {
-  render(<App />);
+test("Renders without errors", ()=> {
+    render(<App/>);
 });
 
-test("renders the app header", () => {
-  render(<App />);
+test("When App mounts, Add New Animal header exists on screen", ()=>{
+    //Arrange: render our component
+    render(<App/>);
 
-  const header = screen.getByText(/add new animal/i); // regex string - i means case insensitive
+    //Act: Find our header
+    
+    //get - finds a single element and if not found, fails test 
+    // const header = screen.getByText("Add Old Animal");
+    // console.log(header);
+    
+    //find - finds a single element and if not found, returns null
+    // const header = screen.findByText("Add Old Animal");
+    // console.log(header);
 
-  expect(header).toBeInTheDocument();
+    //query - finds a single element and if not found, returns null
+    const header = screen.queryByText(/add new animal/i);
 
-  // other possible assertions
-  expect(header).toBeTruthy();
-  expect(header).toHaveTextContent(/add new animal/i);
-
-  // negative assertions
-  expect(header).not.toBeFalsy();
-  expect(header).not.toHaveTextContent(/add new bird/i);
+    //Assert: Verify that header is on the screen
+    expect(header).toBeInTheDocument();
+    expect(header).toBeTruthy();
+    expect(header).toHaveTextContent(/add new animal/i);
 });
