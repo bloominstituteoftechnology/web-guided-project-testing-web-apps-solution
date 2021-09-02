@@ -1,43 +1,60 @@
-import React from "react";
-import { render, screen, waitFor } from "@testing-library/react";
+import React from 'react';
+import {render, screen, waitFor} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import AnimalForm from "./AnimalForm";
 
-test("renders App without errors", () => {
-  render(<AnimalForm />);
+import AnimalForm from './AnimalForm';
+
+test("renders AnimalForm without errors", ()=> {
+    render(<AnimalForm/>);
 });
 
-test("user can fill out and submit form", async () => {
-  // render component
-  render(<AnimalForm />);
+test("when user fills all fields and submits, species appears in list", async () => {
+    //Arrange: Get Component Renders
+    render(<AnimalForm/>);
+    const species = "feline";
 
-  // query for each input
-  const speciesInput = screen.getByLabelText(/species/i);
-  const ageInput = screen.getByLabelText(/age/i);
-  const notesInput = screen.getByLabelText(/notes/i);
+    //Act: Fill out and submit form
+    // - Focus on the species input
+    const specieInput = screen.getByLabelText(/species:/i);
+    // - Types species into the input
+    userEvent.type(specieInput, species);
 
-  // fill out the form
-  userEvent.type(speciesInput, "Grizzly Bear");
-  userEvent.type(ageInput, "3");
-  userEvent.type(ageInput, "just a giant teddy bear");
-  
-  // assert that the form inputs have values (if you want)
-  expect(speciesInput).toHaveValue("Grizzly Bear");
-  // ... etc
+    // - Focus on the age input
+    const ageInput = screen.getByLabelText(/age:/i);
+    // - Types into the age input
+    userEvent.type(ageInput, "9");
 
-  // Submit the form (Careful here... state changes can happen asynchronously)
-  const other = screen.getByRole("table");
+    // - Focus on the notes input
+    const notesInput = screen.getByLabelText(/notes:/i);
+    // - Types into the notes input
+    userEvent.type(notesInput, "this cutest ever!!!");
 
-  const button = screen.getByRole("button", { value: /submit!/i });
-  userEvent.click(button);
+    // - Click the submit button
+    const submitButton = screen.getByRole("button");
+    userEvent.click(submitButton);
+    
+    //Assert:
 
-  // assert that the animal has been added to the list
-  const newAnimal = await screen.findByText(/grizzly bear/i);
-  expect(newAnimal).toBeTruthy();
+    // PROMISE WAY
+    // const speciesFeedbackPromise = screen.findByText(species);
+    // speciesFeedbackPromise
+    //     .then(speciesFeedback=> {
+    //         expect(speciesFeedback).toBeInTheDocument();
+    //     });
 
-  // const newAnimal = screen.queryByText(/grizzly bear/i);
-  // const removedItem = screen.queryByText(/removed/i);
-  // expect(newAnimal).toBeTruthy();
-  // exprect(removedItem).toBeFalsy();
+    // ASYNC / AWAIT WAY
+    // const speciesFeedback = await screen.findByText(species);
+    // expect(speciesFeedback).toBeInTheDocument();
 
+    // WAITFOR WAY
+    await waitFor(()=> {
+        const speciesFeedback = screen.queryByText(species);
+        expect(speciesFeedback).toBeInTheDocument();
+    });
+
+    //SYNC WAY
+    // // - find the species inputed
+    // const speciesFeedback = screen.queryByText(species);
+    // // - verify that it is in the list
+    // expect(speciesFeedback).toBeInTheDocument();
 });
