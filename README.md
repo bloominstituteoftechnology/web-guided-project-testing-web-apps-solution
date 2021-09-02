@@ -235,3 +235,9 @@ Key Concepts:
 * 📝 *unit tests* - [A level of software testing where individual units / components of a software are tested. The purpose is to validate that each unit of the software performs as designed.](https://softwaretestingfundamentals.com/unit-testing/)
 * 📝 *react testing library* - [a light-weight solution for testing React components. ](https://testing-library.com/docs/react-testing-library/intro/)
 * 📝 *test driven development* - [A programming methodology that encourages early testing and later ui development](https://www.youtube.com/watch?v=y8TcPr73Bwo)
+
+Reference Materials:
+* 📝 [React Testing Library Query](https://testing-library.com/docs/react-testing-library/cheatsheet/)
+* 📝 [Jest Expects](https://jestjs.io/docs/expect)
+* 📝 [Userevent](https://testing-library.com/docs/ecosystem-user-event/)
+* 📝 [Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
