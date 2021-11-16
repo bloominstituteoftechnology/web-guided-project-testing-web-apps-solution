@@ -1,8 +1,8 @@
 # Sprint 1 - Module 4 : Integration Testing Lesson Plan
 
-## [Training Kit](https://github.com/LambdaSchool/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%204%20-%20Testing%20Web%20Applications)
+## [Training Kit](https://github.com/BloomInstituteOfTechnology/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%204%20-%20Testing%20Web%20Applications)
 
-### [Previous Lesson Plan](https://github.com/LambdaSchool/web-guided-porject-rtl-i-solution)
+### [Previous Lesson Plan](https://github.com/BloomInstituteOfTechnology/web-guided-porject-rtl-i-solution)
 
 ----
 
@@ -16,17 +16,17 @@ By the end of this module, learners should be able to:
 ----
 
 ## Instructor Resources
-* 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-testing-web-apps)
-* 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-testing-web-apps-solution)
-* 🐙 [Module Project](https://github.com/LambdaSchool/web-module-project-testing-web-apps)
-* 🐙 [Module Project Solution](https://github.com/LambdaSchool/web-module-project-testing-web-apps-solution)
+* 🐙 [Guided Project Starter](https://github.com/BloomInstituteOfTechnology/web-guided-project-testing-web-apps)
+* 🐙 [Guided Project Solution](https://github.com/BloomInstituteOfTechnology/web-guided-project-testing-web-apps-solution)
+* 🐙 [Module Project](https://github.com/BloomInstituteOfTechnology/web-module-project-testing-web-apps)
+* 🐙 [Module Project Solution](https://github.com/BloomInstituteOfTechnology/web-module-project-testing-web-apps-solution)
 
 ----
 
 ## Guided Project Slack Message
 > **Welcome to Unit 3!**
 >
-> 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
+> 1. Clone without forking the following repo: https://github.com/BloomInstituteOfTechnology/web-guided-project-testing-web-apps
 > 2. Navigate into the root folder and run npm i to load dependences.
 >
 > :point_right: Technical issues spinning up the project? Please head over to the help channel!
@@ -46,9 +46,9 @@ By the end of this module, learners should be able to:
 >
 > Slido: https://app.sli.do/event/msea4w8q
 >
-> Guided Project: https://github.com/LambdaSchool/web-guided-project-testing-web-apps
+> Guided Project: https://github.com/BloomInstituteOfTechnology/web-guided-project-testing-web-apps
 >
-> Module Project: https://github.com/LambdaSchool/web-module-project-testing-web-apps
+> Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project-testing-web-apps
 
 ----
 
@@ -202,7 +202,7 @@ target: { value: 'Tony' } })
 
 
 ### Module Project Review
-* [https://github.com/LambdaSchool/web-module-project-testing-web-apps](https://github.com/LambdaSchool/web-module-project-testing-web-apps)
+* [https://github.com/BloomInstituteOfTechnology/web-module-project-testing-web-apps](https://github.com/BloomInstituteOfTechnology/web-module-project-testing-web-apps)
 
 ## Breakout Slack Messages
 
@@ -216,7 +216,7 @@ target: { value: 'Tony' } })
 **Here is a review of today's material.**
 
 ### Module Materials
-Module Project: https://github.com/LambdaSchool/web-module-project-testing-web-apps
+Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project-testing-web-apps
 GP Slides: https://docs.google.com/presentation/d/1AZxMHtFWWTOfANR9P-bFFe1TOxq5EH3LRtsAhixYwr4/edit?usp=sharing
 Yesterday's Module Project Review: https://www.loom.com/share/47024d75655d46eb8736acd6089bd8f4 PW: p9E3mn
 Alternative Lecture Video: [Dustin Myers](https://youtu.be/vSL0pETgTek) | [Josh Jacobson](https://youtu.be/AATcg1sn5h4) | [Warren C. Longmire](https://youtu.be/Sd75Tf16y2Y) | [Brian Kirkby](https://youtu.be/8HaygBZ8WNA)
