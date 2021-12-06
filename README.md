@@ -217,8 +217,9 @@ target: { value: 'Tony' } })
 
 ### Module Materials
 Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project-testing-web-apps
+
 GP Slides: https://docs.google.com/presentation/d/1AZxMHtFWWTOfANR9P-bFFe1TOxq5EH3LRtsAhixYwr4/edit?usp=sharing
-Yesterday's Module Project Review: https://bloomtech-1.wistia.com/medias/ium6dwh9l4
+
 Alternative Lecture Video: [Dustin Myers](https://youtu.be/vSL0pETgTek) | [Josh Jacobson](https://youtu.be/AATcg1sn5h4) | [Warren C. Longmire](https://youtu.be/Sd75Tf16y2Y) | [Brian Kirkby](https://youtu.be/8HaygBZ8WNA)
 
 Key Terminology:
