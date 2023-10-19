@@ -1,38 +1,39 @@
 import React from 'react';
-import {render, screen, waitFor} from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import AnimalForm from './AnimalForm';
 
-test("renders AnimalForm without errors", ()=> {
-    render(<AnimalForm/>);
+test("renders AnimalForm without errors", () => {
+    render(<AnimalForm />);
 });
 
 test("when user fills all fields and submits, species appears in list", async () => {
     //Arrange: Get Component Renders
-    render(<AnimalForm/>);
+    const user = userEvent.setup()
+    render(<AnimalForm />);
     const species = "feline";
 
     //Act: Fill out and submit form
     // - Focus on the species input
     const specieInput = screen.getByLabelText(/species:/i);
     // - Types species into the input
-    userEvent.type(specieInput, species);
+    await user.type(specieInput, species);
 
     // - Focus on the age input
     const ageInput = screen.getByLabelText(/age:/i);
     // - Types into the age input
-    userEvent.type(ageInput, "9");
+    await user.type(ageInput, "9");
 
     // - Focus on the notes input
     const notesInput = screen.getByLabelText(/notes:/i);
     // - Types into the notes input
-    userEvent.type(notesInput, "this cutest ever!!!");
+    await user.type(notesInput, "this cutest ever!!!");
 
     // - Click the submit button
     const submitButton = screen.getByRole("button");
-    userEvent.click(submitButton);
-    
+    await user.click(submitButton);
+
     //Assert:
 
     // PROMISE WAY
@@ -47,7 +48,7 @@ test("when user fills all fields and submits, species appears in list", async ()
     // expect(speciesFeedback).toBeInTheDocument();
 
     // WAITFOR WAY
-    await waitFor(()=> {
+    await waitFor(() => {
         const speciesFeedback = screen.queryByText(species);
         expect(speciesFeedback).toBeInTheDocument();
     });

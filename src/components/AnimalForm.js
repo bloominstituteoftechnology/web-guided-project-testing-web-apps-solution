@@ -13,7 +13,8 @@ const AnimalForm = ({ errors, touched, values }) => {
 
   // Handle changes from form inputs
   const handleChange = event => {
-    setAnimal({ ...animal, [event.target.name]: event.target.value });
+    const { name, value } = event.target
+    setAnimal({ ...animal, [name]: value });
   };
 
   const handleSubmit = event => {
@@ -27,27 +28,27 @@ const AnimalForm = ({ errors, touched, values }) => {
 
   return (
     <div className="animal-form">
-      <form onSubmit={event => handleSubmit(event)}>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="species">Species:</label>
         <input
           id="species"
           type="text"
           name="species"
-          onChange={event => handleChange(event)}
+          onChange={handleChange}
         />
         <label htmlFor="age">Age:</label>
         <input
           id="age"
           type="text"
           name="age"
-          onChange={event => handleChange(event)}
+          onChange={handleChange}
         />
         <label htmlFor="notes">Notes:</label>
         <textarea
           id="notes"
           type="text"
           name="notes"
-          onChange={event => handleChange(event)}
+          onChange={handleChange}
         />
 
         <table>
